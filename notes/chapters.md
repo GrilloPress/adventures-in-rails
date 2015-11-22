@@ -3,6 +3,8 @@
 0. Introduction
 
 1. Installing Rails
+  __a__ - Installing Ruby 
+  __b__ - Installing SQLite
 
 2. Creating the application skeleton
 
