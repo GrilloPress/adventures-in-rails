@@ -20,6 +20,53 @@
     <main class="col-md-8">
     <%= yield %>  
     </main>
+    
+    <section class="col-md-4">
+        <form class="form-horizontal">
+          <fieldset>
+
+          <div class="form-group">
+            <label class="control-label" for="name">Name</label>  
+            <div>
+            <input id="name" name="name" type="text" placeholder="Andrew" class="form-control input-md" required="">
+
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label" for="email">Email</label>  
+            <div>
+            <input id="email" name="email" type="text" placeholder="example@email.com" class="form-control input-md" required="">
+
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label" for="company">Company/Organisation</label>  
+            <div>
+            <input id="company" name="company" type="text" placeholder="Coolplace.io" class="form-control input-md" required="">
+
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label" for="enquiry">Message</label>
+            <div>                     
+              <textarea class="form-control" id="enquiry" name="enquiry"></textarea>
+            </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="control-label" for="message-button"></label>
+              <div>
+                <button id="message-button" name="message-button" class="btn btn-block btn-primary">Send Message</button>
+              </div>
+            </div>
+
+          </fieldset>
+          </form>
+
+    </section>
   </div>
   
 
